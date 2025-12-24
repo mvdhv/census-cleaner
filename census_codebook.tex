@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+
+% ---------------------------------
+% Page geometry (FINAL)
+% ---------------------------------
+\usepackage[
+  a4paper,
+  landscape,
+  left=0.6in,
+  right=0.6in,
+  top=0.8in,
+  bottom=0.8in
+]{geometry}
+
+% ---------------------------------
+% Tables
+% ---------------------------------
+\usepackage{tabularray}
+\UseTblrLibrary{booktabs}
+
+% ---------------------------------
+% Captions and links
+% ---------------------------------
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\usepackage[hidelinks]{hyperref}
+
+\title{\textbf{Codebook for Cleaned Indian Census Population Dataset}}
+\author{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Variable Definitions}
+
+\input{codebook.tex}
+
+\end{document}

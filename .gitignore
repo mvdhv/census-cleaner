@@ -1,0 +1,7 @@
+# Python virtual environment
+/venv/
+/.DS_Store
+
+# Local lookup tables / intermediate metadata
+/statedistcodes.csv
+/variable_metadata.yaml
