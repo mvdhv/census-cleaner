@@ -22,9 +22,9 @@ The objective of this project is to transform that raw administrative dataset in
 
 ```text
 .
+├── Census_Codebook.pdf         # Codebook for the cleaned dataset (pdf)
 ├── census_clean.csv            # Fully cleaned and validated dataset (output)
 ├── census_cleaner.ipynb        # Primary data cleaning and validation notebook
-├── Census_Codebook.pdf         # Codebook for the cleaned dataset (pdf)
 ├── census_codebook.tex         # Codebook frame for the cleaned dataset (LaTeX)
 ├── codebook.tex                # Codebook info for the cleaned dataset (LaTeX)
 ├── data_dictionary.ipynb       # Codebook generation notebook
